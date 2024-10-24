@@ -14,7 +14,7 @@ pip install opencv-python numpy
 - Record the distance and the parameter of camera into the variables at the beginning of the code
 
 ## 3. Principles
-- I utilized stereo vision principles to achieve the goal. 
+- I utilized stereo vision principles to achieve the goal. \
 ![StereoVisionPrinciple_Basic](pic/StereoVisionPrinciple_Basic.png)
 - This method uses the concept of triangulation based on the disparity between the positions of the laser point in the images from each camera. With a known baseline (distance between the two cameras) and the disparity (difference in the horizontal position of the laser point between the two camera images), you can estimate the depth (distance) of the laser point. The general method looks like this:
 ![StereoVisionPrinciple_General](pic/StereoVisionPrinciple_General.png)
